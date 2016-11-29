@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MonitorToast</string>
+
+    <string name="testaccessibility">监听服务</string>
+    <string name="accessibility">Toast监听服务</string>
+
+</resources>
