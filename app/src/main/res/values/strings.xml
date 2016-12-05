@@ -4,4 +4,8 @@
     <string name="testaccessibility">监听服务</string>
     <string name="accessibility">Toast监听服务</string>
 
+    <string name="param">param</string>
+    <string name="time_block">time_block</string>
+    <string name="filter_str">filter_str</string>
+
 </resources>
