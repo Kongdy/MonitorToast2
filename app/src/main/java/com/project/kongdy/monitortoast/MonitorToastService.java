@@ -49,7 +49,7 @@ public class MonitorToastService extends AccessibilityService {
                         return;
                     }
                     lastRecordTime = System.currentTimeMillis() + extra;
-                    Toast.makeText(getApplicationContext(), "receive time:" + extra + ",filter str:" + filterStr, Toast.LENGTH_SHORT).show();
+                    Log.e("timeBlockReceiver", "receive time:" + extra + ",filter str:" + filterStr);
                 }
             }
         }
@@ -110,6 +110,5 @@ public class MonitorToastService extends AccessibilityService {
 
     @Override
     public void onInterrupt() {
-
     }
 }
